@@ -1,0 +1,109 @@
+.btn{
+   
+        background-color: #ee626b;
+        color:white;
+        padding: 5px 15px;
+        border: none;
+        border-radius: 15px;            
+    
+}
+.btn:hover {
+    
+    background-color:#f2858c ;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.logo{
+    width: 100px;
+}
+.header {
+background-color: #0171f9; 
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 50px;
+}
+.header-links a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.header-links a:hover {
+    border-radius: 15px;
+    background-color: #3284fd;
+}
+
+
+.Landing-page {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+.Landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+   
+}
+.Landing-page-search button {
+    position: absolute;
+    left: 200px;
+    height: 30px;
+}
+.Landing-image img {
+border-radius: 20px;
+width: 250px;
+}
+.Landing-section{
+    width: 500px;
+
+}
+.Tranding-Core{
+    padding: 25px 50px;
+}
+.Tranding-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Tranding-Core h1 {
+    margin: 0;
+}
+.Tranding-Core span{
+    color: #ee626b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.Card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.Card-info img{
+    width: 50px;
+    border-radius: 50px;
+}
+.Card{
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+   
+}
+.Card .thumb {
+    
+    border-radius: 20px;
+}
+.Trending-Cards{
+display: flex;
+gap: 12px
+}
+
+
